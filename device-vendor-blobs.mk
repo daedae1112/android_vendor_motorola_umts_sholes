@@ -52,23 +52,19 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/umts_sholes/proprietary/bin/safe_reboot:/system/bin/safe_reboot \
     vendor/motorola/umts_sholes/proprietary/bin/logfilter-get:/system/bin/logfilter-get \
     vendor/motorola/umts_sholes/proprietary/bin/battd:/system/bin/battd \
-    vendor/motorola/umts_sholes/proprietary/bin/gkilogd:/system/bin/gkilogd \
     vendor/motorola/umts_sholes/proprietary/bin/akmd2:/system/bin/akmd2 \
     vendor/motorola/umts_sholes/proprietary/bin/bthelp:/system/bin/bthelp \
     vendor/motorola/umts_sholes/proprietary/bin/protocol_driver:/system/bin/protocol_driver \
-    vendor/motorola/umts_sholes/proprietary/bin/secclkd:/system/bin/secclkd \
     vendor/motorola/umts_sholes/proprietary/bin/dbvc_atvc_property_set:/system/bin/dbvc_atvc_property_set \
     vendor/motorola/umts_sholes/proprietary/bin/logfilter-set:/system/bin/logfilter-set \
     vendor/motorola/umts_sholes/proprietary/bin/watchdogd:/system/bin/watchdogd \
     vendor/motorola/umts_sholes/proprietary/bin/bttest_mot:/system/bin/bttest_mot \
-    vendor/motorola/umts_sholes/proprietary/bin/ap_gain_france.bin:/system/bin/ap_gain_france.bin \
     vendor/motorola/umts_sholes/proprietary/bin/gkisystem:/system/bin/gkisystem \
     vendor/motorola/umts_sholes/proprietary/bin/opprofdaemon:/system/bin/opprofdaemon \
     vendor/motorola/umts_sholes/proprietary/bin/rild_tcmd:/system/bin/rild_tcmd \
     vendor/motorola/umts_sholes/proprietary/bin/ap_gain.bin:/system/bin/ap_gain.bin \
     vendor/motorola/umts_sholes/proprietary/bin/pvrsrvinit:/system/bin/pvrsrvinit \
     vendor/motorola/umts_sholes/proprietary/bin/pvrsrvctl:/system/bin/pvrsrvctl \
-    vendor/motorola/umts_sholes/proprietary/bin/aplogd:/system/bin/aplogd \
     vendor/motorola/umts_sholes/proprietary/bin/location:/system/bin/location \
     vendor/motorola/umts_sholes/proprietary/bin/catcommands:/system/bin/catcommands \
     vendor/motorola/umts_sholes/proprietary/lib/libIMGegl.so:/system/lib/libIMGegl.so \
@@ -89,7 +85,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/umts_sholes/proprietary/lib/libcamera.so:/system/lib/libcamera.so \
     vendor/motorola/umts_sholes/proprietary/lib/libaudio.so:/system/lib/libaudio.so \
     vendor/motorola/umts_sholes/proprietary/lib/libbattd.so:/system/lib/libbattd.so \
-    vendor/motorola/umts_sholes/proprietary/lib/libsecclkdlib.so:/system/lib/libsecclkdlib.so \
     vendor/motorola/umts_sholes/proprietary/lib/libglslcompiler.so:/system/lib/libglslcompiler.so \
     vendor/motorola/umts_sholes/proprietary/lib/libmsl_interface.so:/system/lib/libmsl_interface.so \
     vendor/motorola/umts_sholes/proprietary/lib/libmotodbgutils.so:/system/lib/libmotodbgutils.so \
