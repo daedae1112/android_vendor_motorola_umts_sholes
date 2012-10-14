@@ -24,8 +24,7 @@ PRODUCT_COPY_FILES := \
 PRODUCT_COPY_FILES += \
     vendor/motorola/umts_sholes/proprietary/framework/com.motorola.android.location.jar:/system/framework/com.motorola.android.location.jar \
     vendor/motorola/umts_sholes/proprietary/framework/mot-framework-res.apk:/system/framework/mot-framework-res.apk \
-    vendor/motorola/umts_sholes/proprietary/etc/cameraCalFileDef5M.bin:/system/etc/cameraCalFileDef5M.bin \
-    vendor/motorola/umts_sholes/proprietary/etc/cameraCalFileDef8M.bin:/system/etc/cameraCalFileDef8M.bin
+    vendor/motorola/umts_sholes/proprietary/etc/cameraCalFileDef5M.bin:/system/etc/cameraCalFileDef5M.bin 
 
 PRODUCT_COPY_FILES += \
     vendor/motorola/umts_sholes/proprietary/etc/permissions/motorola_platform.xml:/system/etc/permissions/motorola_platform.xml \
@@ -53,7 +52,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/umts_sholes/proprietary/bin/safe_reboot:/system/bin/safe_reboot \
     vendor/motorola/umts_sholes/proprietary/bin/logfilter-get:/system/bin/logfilter-get \
     vendor/motorola/umts_sholes/proprietary/bin/battd:/system/bin/battd \
-    vendor/motorola/umts_sholes/proprietary/bin/batt2d:/system/bin/batt2d \
     vendor/motorola/umts_sholes/proprietary/bin/gkilogd:/system/bin/gkilogd \
     vendor/motorola/umts_sholes/proprietary/bin/akmd2:/system/bin/akmd2 \
     vendor/motorola/umts_sholes/proprietary/bin/bthelp:/system/bin/bthelp \
@@ -164,130 +162,14 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/umts_sholes/proprietary/etc/motorola/bp_nvm_default/File_GPRS:/system/etc/motorola/bp_nvm_default/File_GPRS \
     vendor/motorola/umts_sholes/proprietary/etc/motorola/bp_nvm_default/File_Logger:/system/etc/motorola/bp_nvm_default/File_Logger \
     vendor/motorola/umts_sholes/proprietary/etc/motorola/bp_nvm_default/File_UMA:/system/etc/motorola/bp_nvm_default/File_UMA \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b8/File_Audio:/system/etc/motorola/b1b8/File_Audio \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b8/File_Audio1_AMR_WB:/system/etc/motorola/b1b8/File_Audio1_AMR_WB \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b8/File_Audio2:/system/etc/motorola/b1b8/File_Audio2 \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b8/File_Audio2_AMR_WB:/system/etc/motorola/b1b8/File_Audio2_AMR_WB \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b8/File_Audio6:/system/etc/motorola/b1b8/File_Audio6 \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b8/File_Audio7:/system/etc/motorola/b1b8/File_Audio7 \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b8/File_GSM:/system/etc/motorola/b1b8/File_GSM \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b8/File_Seem_Flex_Tables:/system/etc/motorola/b1b8/File_Seem_Flex_Tables \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b8/generic_pds_init:/system/etc/motorola/b1b8/generic_pds_init \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_argentina_personal/File_Audio:/system/etc/motorola/b1b2b5_argentina_personal/File_Audio \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_argentina_personal/File_Audio1_AMR_WB:/system/etc/motorola/b1b2b5_argentina_personal/File_Audio1_AMR_WB \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_argentina_personal/File_Audio2:/system/etc/motorola/b1b2b5_argentina_personal/File_Audio2 \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_argentina_personal/File_Audio2_AMR_WB:/system/etc/motorola/b1b2b5_argentina_personal/File_Audio2_AMR_WB \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_argentina_personal/File_Audio6:/system/etc/motorola/b1b2b5_argentina_personal/File_Audio6 \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_argentina_personal/File_Audio7:/system/etc/motorola/b1b2b5_argentina_personal/File_Audio7 \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_argentina_personal/File_GSM:/system/etc/motorola/b1b2b5_argentina_personal/File_GSM \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_argentina_personal/File_Seem_Flex_Tables:/system/etc/motorola/b1b2b5_argentina_personal/File_Seem_Flex_Tables \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_argentina_personal/generic_pds_init:/system/etc/motorola/b1b2b5_argentina_personal/generic_pds_init \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_argentina_personal/sim_lock_init:/system/etc/motorola/b1b2b5_argentina_personal/sim_lock_init \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_brazil_claro/File_Audio:/system/etc/motorola/b1b2b5_brazil_claro/File_Audio \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_brazil_claro/File_Audio1_AMR_WB:/system/etc/motorola/b1b2b5_brazil_claro/File_Audio1_AMR_WB \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_brazil_claro/File_Audio2:/system/etc/motorola/b1b2b5_brazil_claro/File_Audio2 \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_brazil_claro/File_Audio2_AMR_WB:/system/etc/motorola/b1b2b5_brazil_claro/File_Audio2_AMR_WB \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_brazil_claro/File_Audio6:/system/etc/motorola/b1b2b5_brazil_claro/File_Audio6 \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_brazil_claro/File_Audio7:/system/etc/motorola/b1b2b5_brazil_claro/File_Audio7 \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_brazil_claro/File_GSM:/system/etc/motorola/b1b2b5_brazil_claro/File_GSM \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_brazil_claro/File_Seem_Flex_Tables:/system/etc/motorola/b1b2b5_brazil_claro/File_Seem_Flex_Tables \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_brazil_claro/generic_pds_init:/system/etc/motorola/b1b2b5_brazil_claro/generic_pds_init \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_brazil_claro/sim_lock_init:/system/etc/motorola/b1b2b5_brazil_claro/sim_lock_init \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_brazil_retail/File_Audio:/system/etc/motorola/b1b2b5_brazil_retail/File_Audio \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_brazil_retail/File_Audio1_AMR_WB:/system/etc/motorola/b1b2b5_brazil_retail/File_Audio1_AMR_WB \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_brazil_retail/File_Audio2:/system/etc/motorola/b1b2b5_brazil_retail/File_Audio2 \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_brazil_retail/File_Audio2_AMR_WB:/system/etc/motorola/b1b2b5_brazil_retail/File_Audio2_AMR_WB \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_brazil_retail/File_Audio6:/system/etc/motorola/b1b2b5_brazil_retail/File_Audio6 \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_brazil_retail/File_Audio7:/system/etc/motorola/b1b2b5_brazil_retail/File_Audio7 \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_brazil_retail/File_GSM:/system/etc/motorola/b1b2b5_brazil_retail/File_GSM \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_brazil_retail/File_Seem_Flex_Tables:/system/etc/motorola/b1b2b5_brazil_retail/File_Seem_Flex_Tables \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_brazil_retail/generic_pds_init:/system/etc/motorola/b1b2b5_brazil_retail/generic_pds_init \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_brazil_retail/sim_lock_init:/system/etc/motorola/b1b2b5_brazil_retail/sim_lock_init \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_brazil_tim/File_Audio:/system/etc/motorola/b1b2b5_brazil_tim/File_Audio \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_brazil_tim/File_Audio1_AMR_WB:/system/etc/motorola/b1b2b5_brazil_tim/File_Audio1_AMR_WB \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_brazil_tim/File_Audio2:/system/etc/motorola/b1b2b5_brazil_tim/File_Audio2 \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_brazil_tim/File_Audio2_AMR_WB:/system/etc/motorola/b1b2b5_brazil_tim/File_Audio2_AMR_WB \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_brazil_tim/File_Audio6:/system/etc/motorola/b1b2b5_brazil_tim/File_Audio6 \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_brazil_tim/File_Audio7:/system/etc/motorola/b1b2b5_brazil_tim/File_Audio7 \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_brazil_tim/File_GSM:/system/etc/motorola/b1b2b5_brazil_tim/File_GSM \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_brazil_tim/File_Seem_Flex_Tables:/system/etc/motorola/b1b2b5_brazil_tim/File_Seem_Flex_Tables \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_brazil_tim/generic_pds_init:/system/etc/motorola/b1b2b5_brazil_tim/generic_pds_init \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_brazil_tim/sim_lock_init:/system/etc/motorola/b1b2b5_brazil_tim/sim_lock_init \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_brazil_vivo/File_Audio:/system/etc/motorola/b1b2b5_brazil_vivo/File_Audio \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_brazil_vivo/File_Audio1_AMR_WB:/system/etc/motorola/b1b2b5_brazil_vivo/File_Audio1_AMR_WB \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_brazil_vivo/File_Audio2:/system/etc/motorola/b1b2b5_brazil_vivo/File_Audio2 \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_brazil_vivo/File_Audio2_AMR_WB:/system/etc/motorola/b1b2b5_brazil_vivo/File_Audio2_AMR_WB \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_brazil_vivo/File_Audio6:/system/etc/motorola/b1b2b5_brazil_vivo/File_Audio6 \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_brazil_vivo/File_Audio7:/system/etc/motorola/b1b2b5_brazil_vivo/File_Audio7 \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_brazil_vivo/File_GSM:/system/etc/motorola/b1b2b5_brazil_vivo/File_GSM \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_brazil_vivo/File_Seem_Flex_Tables:/system/etc/motorola/b1b2b5_brazil_vivo/File_Seem_Flex_Tables \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_brazil_vivo/generic_pds_init:/system/etc/motorola/b1b2b5_brazil_vivo/generic_pds_init \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_brazil_vivo/sim_lock_init:/system/etc/motorola/b1b2b5_brazil_vivo/sim_lock_init \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_canada_telus/File_Audio:/system/etc/motorola/b1b2b5_canada_telus/File_Audio \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_canada_telus/File_Audio1_AMR_WB:/system/etc/motorola/b1b2b5_canada_telus/File_Audio1_AMR_WB \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_canada_telus/File_Audio2:/system/etc/motorola/b1b2b5_canada_telus/File_Audio2 \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_canada_telus/File_Audio2_AMR_WB:/system/etc/motorola/b1b2b5_canada_telus/File_Audio2_AMR_WB \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_canada_telus/File_Audio6:/system/etc/motorola/b1b2b5_canada_telus/File_Audio6 \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_canada_telus/File_Audio7:/system/etc/motorola/b1b2b5_canada_telus/File_Audio7 \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_canada_telus/File_GSM:/system/etc/motorola/b1b2b5_canada_telus/File_GSM \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_canada_telus/File_Seem_Flex_Tables:/system/etc/motorola/b1b2b5_canada_telus/File_Seem_Flex_Tables \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_canada_telus/generic_pds_init:/system/etc/motorola/b1b2b5_canada_telus/generic_pds_init \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_canada_telus/sim_lock_init:/system/etc/motorola/b1b2b5_canada_telus/sim_lock_init \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_china_retail/File_Audio:/system/etc/motorola/b1b2b5_china_retail/File_Audio \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_china_retail/File_Audio1_AMR_WB:/system/etc/motorola/b1b2b5_china_retail/File_Audio1_AMR_WB \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_china_retail/File_Audio2:/system/etc/motorola/b1b2b5_china_retail/File_Audio2 \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_china_retail/File_Audio2_AMR_WB:/system/etc/motorola/b1b2b5_china_retail/File_Audio2_AMR_WB \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_china_retail/File_Audio6:/system/etc/motorola/b1b2b5_china_retail/File_Audio6 \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_china_retail/File_Audio7:/system/etc/motorola/b1b2b5_china_retail/File_Audio7 \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_china_retail/File_GSM:/system/etc/motorola/b1b2b5_china_retail/File_GSM \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_china_retail/File_Seem_Flex_Tables:/system/etc/motorola/b1b2b5_china_retail/File_Seem_Flex_Tables \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_china_retail/generic_pds_init:/system/etc/motorola/b1b2b5_china_retail/generic_pds_init \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_latam_movistar/File_Audio:/system/etc/motorola/b1b2b5_latam_movistar/File_Audio \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_latam_movistar/File_Audio1_AMR_WB:/system/etc/motorola/b1b2b5_latam_movistar/File_Audio1_AMR_WB \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_latam_movistar/File_Audio2:/system/etc/motorola/b1b2b5_latam_movistar/File_Audio2 \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_latam_movistar/File_Audio2_AMR_WB:/system/etc/motorola/b1b2b5_latam_movistar/File_Audio2_AMR_WB \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_latam_movistar/File_Audio6:/system/etc/motorola/b1b2b5_latam_movistar/File_Audio6 \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_latam_movistar/File_Audio7:/system/etc/motorola/b1b2b5_latam_movistar/File_Audio7 \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_latam_movistar/File_GSM:/system/etc/motorola/b1b2b5_latam_movistar/File_GSM \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_latam_movistar/File_Seem_Flex_Tables:/system/etc/motorola/b1b2b5_latam_movistar/File_Seem_Flex_Tables \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_latam_movistar/generic_pds_init:/system/etc/motorola/b1b2b5_latam_movistar/generic_pds_init \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_latam_movistar/sim_lock_init:/system/etc/motorola/b1b2b5_latam_movistar/sim_lock_init \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_latam_retail/File_Audio:/system/etc/motorola/b1b2b5_latam_retail/File_Audio \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_latam_retail/File_Audio1_AMR_WB:/system/etc/motorola/b1b2b5_latam_retail/File_Audio1_AMR_WB \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_latam_retail/File_Audio2:/system/etc/motorola/b1b2b5_latam_retail/File_Audio2 \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_latam_retail/File_Audio2_AMR_WB:/system/etc/motorola/b1b2b5_latam_retail/File_Audio2_AMR_WB \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_latam_retail/File_Audio6:/system/etc/motorola/b1b2b5_latam_retail/File_Audio6 \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_latam_retail/File_Audio7:/system/etc/motorola/b1b2b5_latam_retail/File_Audio7 \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_latam_retail/File_GSM:/system/etc/motorola/b1b2b5_latam_retail/File_GSM \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_latam_retail/File_Seem_Flex_Tables:/system/etc/motorola/b1b2b5_latam_retail/File_Seem_Flex_Tables \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_latam_retail/generic_pds_init:/system/etc/motorola/b1b2b5_latam_retail/generic_pds_init \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_latam_retail/sim_lock_init:/system/etc/motorola/b1b2b5_latam_retail/sim_lock_init \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_newzealand_retail/File_Audio:/system/etc/motorola/b1b2b5_newzealand_retail/File_Audio \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_newzealand_retail/File_Audio1_AMR_WB:/system/etc/motorola/b1b2b5_newzealand_retail/File_Audio1_AMR_WB \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_newzealand_retail/File_Audio2:/system/etc/motorola/b1b2b5_newzealand_retail/File_Audio2 \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_newzealand_retail/File_Audio2_AMR_WB:/system/etc/motorola/b1b2b5_newzealand_retail/File_Audio2_AMR_WB \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_newzealand_retail/File_Audio6:/system/etc/motorola/b1b2b5_newzealand_retail/File_Audio6 \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_newzealand_retail/File_Audio7:/system/etc/motorola/b1b2b5_newzealand_retail/File_Audio7 \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_newzealand_retail/File_GSM:/system/etc/motorola/b1b2b5_newzealand_retail/File_GSM \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_newzealand_retail/File_Seem_Flex_Tables:/system/etc/motorola/b1b2b5_newzealand_retail/File_Seem_Flex_Tables \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_newzealand_retail/generic_pds_init:/system/etc/motorola/b1b2b5_newzealand_retail/generic_pds_init \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_thailand_truemove/File_Audio:/system/etc/motorola/b1b2b5_thailand_truemove/File_Audio \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_thailand_truemove/File_Audio1_AMR_WB:/system/etc/motorola/b1b2b5_thailand_truemove/File_Audio1_AMR_WB \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_thailand_truemove/File_Audio2:/system/etc/motorola/b1b2b5_thailand_truemove/File_Audio2 \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_thailand_truemove/File_Audio2_AMR_WB:/system/etc/motorola/b1b2b5_thailand_truemove/File_Audio2_AMR_WB \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_thailand_truemove/File_Audio6:/system/etc/motorola/b1b2b5_thailand_truemove/File_Audio6 \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_thailand_truemove/File_Audio7:/system/etc/motorola/b1b2b5_thailand_truemove/File_Audio7 \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_thailand_truemove/File_GSM:/system/etc/motorola/b1b2b5_thailand_truemove/File_GSM \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_thailand_truemove/File_Seem_Flex_Tables:/system/etc/motorola/b1b2b5_thailand_truemove/File_Seem_Flex_Tables \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_thailand_truemove/generic_pds_init:/system/etc/motorola/b1b2b5_thailand_truemove/generic_pds_init \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_venezuela_movilnet/File_Audio:/system/etc/motorola/b1b2b5_venezuela_movilnet/File_Audio \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_venezuela_movilnet/File_Audio1_AMR_WB:/system/etc/motorola/b1b2b5_venezuela_movilnet/File_Audio1_AMR_WB \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_venezuela_movilnet/File_Audio2:/system/etc/motorola/b1b2b5_venezuela_movilnet/File_Audio2 \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_venezuela_movilnet/File_Audio2_AMR_WB:/system/etc/motorola/b1b2b5_venezuela_movilnet/File_Audio2_AMR_WB \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_venezuela_movilnet/File_Audio6:/system/etc/motorola/b1b2b5_venezuela_movilnet/File_Audio6 \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_venezuela_movilnet/File_Audio7:/system/etc/motorola/b1b2b5_venezuela_movilnet/File_Audio7 \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_venezuela_movilnet/File_GSM:/system/etc/motorola/b1b2b5_venezuela_movilnet/File_GSM \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_venezuela_movilnet/File_Seem_Flex_Tables:/system/etc/motorola/b1b2b5_venezuela_movilnet/File_Seem_Flex_Tables \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_venezuela_movilnet/generic_pds_init:/system/etc/motorola/b1b2b5_venezuela_movilnet/generic_pds_init \
-    vendor/motorola/umts_sholes/proprietary/etc/motorola/b1b2b5_venezuela_movilnet/sim_lock_init:/system/etc/motorola/b1b2b5_venezuela_movilnet/sim_lock_init
+    vendor/motorola/umts_sholes/proprietary/etc/motorola/bp_nvm_default/File_Audio:/system/etc/motorola/bp_nvm_default/File_Audio \
+    vendor/motorola/umts_sholes/proprietary/etc/motorola/bp_nvm_default/File_Audio1_AMR_WB:/system/etc/motorola/bp_nvm_default/File_Audio1_AMR_WB \
+    vendor/motorola/umts_sholes/proprietary/etc/motorola/bp_nvm_default/File_Audio2:/system/etc/motorola/bp_nvm_default/File_Audio2 \
+    vendor/motorola/umts_sholes/proprietary/etc/motorola/bp_nvm_default/File_Audio2_AMR_WB:/system/etc/motorola/bp_nvm_default/File_Audio2_AMR_WB \
+    vendor/motorola/umts_sholes/proprietary/etc/motorola/bp_nvm_default/File_Audio6:/system/etc/motorola/bp_nvm_default/File_Audio6 \
+    vendor/motorola/umts_sholes/proprietary/etc/motorola/bp_nvm_default/File_Audio7:/system/etc/motorola/bp_nvm_default/File_Audio7 \
+    vendor/motorola/umts_sholes/proprietary/etc/motorola/bp_nvm_default/File_GSM:/system/etc/motorola/bp_nvm_default/File_GSM \
+    vendor/motorola/umts_sholes/proprietary/etc/motorola/bp_nvm_default/File_Seem_Flex_Tables:/system/etc/motorola/bp_nvm_default/File_Seem_Flex_Tables \
+    vendor/motorola/umts_sholes/proprietary/etc/motorola/bp_nvm_default/generic_pds_init:/system/etc/motorola/bp_nvm_default/generic_pds_init 
+
 

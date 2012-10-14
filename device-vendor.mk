@@ -14,13 +14,7 @@
 
 include $(all-subdir-makefiles)
 
-PRODUCT_PACKAGES += \
-    AudioEffectSettings \
-    CompassCalibrate \
-    PersonalPortal \
-    PhoneConfig \
-    ProgramMenu \
-    ProgramMenuSystem
+PRODUCT_PACKAGES +=
 
 # Pick up overlay for features that depend on non-open-source files
 DEVICE_PACKAGE_OVERLAYS := vendor/motorola/umts_sholes/overlay
